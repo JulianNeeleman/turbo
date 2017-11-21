@@ -121,7 +121,9 @@ template <class T> struct Polygon {
         std::vector<T> as;
         std::vector<LineSegment<T, 2>> lines = line_segments();
         for (unsigned i = 0; i < lines.size(); i++) {
+            as.push_back(lines[i].angle(lines[succ(i)]));
         }
+        return as;
     }
 
     // Compute all right angles.

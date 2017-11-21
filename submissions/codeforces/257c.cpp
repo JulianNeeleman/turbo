@@ -27,7 +27,7 @@ int main() {
     for (int j = 0; j < n; j++) {
         cout << s[j].serialize() << endl;
         int i = s.pred(j), k = s.succ(j);
-    }
+    k
 
     return 0;
 }
