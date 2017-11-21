@@ -27,9 +27,6 @@ int main() {
     for (int j = 0; j < n; j++) {
         cout << s[j].serialize() << endl;
         int i = s.pred(j), k = s.succ(j);
-        if (s[j].angle(s[i], s[k]) {
-            
-        }
     }
 
     return 0;
