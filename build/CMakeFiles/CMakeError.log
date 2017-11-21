@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_518ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_518ac.dir/build.make CMakeFiles/cmTC_518ac.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_518ac.dir/CheckSymbolExists.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_518ac.dir/CheckSymbolExists.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_518ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_518ac.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_518ac.dir/CheckSymbolExists.c.o  -o cmTC_518ac 
+CMakeFiles/cmTC_518ac.dir/CheckSymbolExists.c.o: In function `main':
+/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_518ac.dir/build.make:97: recipe for target 'cmTC_518ac' failed
+make[1]: *** [cmTC_518ac] Error 1
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_518ac/fast' failed
+make: *** [cmTC_518ac/fast] Error 2
+
+File /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a544/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a544.dir/build.make CMakeFiles/cmTC_7a544.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a544.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7a544.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a544.dir/link.txt --verbose=1
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7a544.dir/CheckFunctionExists.c.o  -o cmTC_7a544 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_7a544.dir/build.make:97: recipe for target 'cmTC_7a544' failed
+make[1]: *** [cmTC_7a544] Error 1
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7a544/fast' failed
+make: *** [cmTC_7a544/fast] Error 2
+
+

@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/kquery.dir/kquery.cpp.o  -o kquery 

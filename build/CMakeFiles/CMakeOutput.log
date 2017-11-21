@@ -1,0 +1,236 @@
+The system is: Linux - 4.10.0-38-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/julian/projects/turbo/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/julian/projects/turbo/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f02f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f02f.dir/build.make CMakeFiles/cmTC_7f02f.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f02f.dir/testCCompiler.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_7f02f.dir/testCCompiler.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7f02f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f02f.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_7f02f.dir/testCCompiler.c.o  -o cmTC_7f02f 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16f45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16f45.dir/build.make CMakeFiles/cmTC_16f45.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_16f45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16f45.dir/link.txt --verbose=1
+/usr/bin/clang      -v CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o  -o cmTC_16f45  
+clang version 3.8.0-2ubuntu4 (tags/RELEASE_380/final)
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
+Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda
+ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_16f45 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_16f45/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_16f45.dir/build.make CMakeFiles/cmTC_16f45.dir/build]
+  ignore line: [make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang     -o CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_16f45]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16f45.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang      -v CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o  -o cmTC_16f45  ]
+  ignore line: [clang version 3.8.0-2ubuntu4 (tags/RELEASE_380/final)]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/bin]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0]
+  ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_16f45 /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/usr/lib/llvm-3.8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_16f45] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..]
+    arg [-L/usr/lib/llvm-3.8/bin/../lib] ==> dir [/usr/lib/llvm-3.8/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [CMakeFiles/cmTC_16f45.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o] ==> ignore
+    arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0] ==> [/usr/lib/gcc/x86_64-linux-gnu/5.4.0]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/llvm-3.8/bin/../lib] ==> [/usr/lib/llvm-3.8/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5.4.0;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib64;/usr/lib;/usr/lib/llvm-3.8/lib;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cc0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cc0e.dir/build.make CMakeFiles/cmTC_2cc0e.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cc0e.dir/feature_tests.c.o
+/usr/bin/clang    -std=c11 -o CMakeFiles/cmTC_2cc0e.dir/feature_tests.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2cc0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cc0e.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_2cc0e.dir/feature_tests.c.o  -o cmTC_2cc0e 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8d0f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8d0f7.dir/build.make CMakeFiles/cmTC_8d0f7.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d0f7.dir/feature_tests.c.o
+/usr/bin/clang    -std=c99 -o CMakeFiles/cmTC_8d0f7.dir/feature_tests.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8d0f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d0f7.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_8d0f7.dir/feature_tests.c.o  -o cmTC_8d0f7 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4229a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4229a.dir/build.make CMakeFiles/cmTC_4229a.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4229a.dir/feature_tests.c.o
+/usr/bin/clang    -std=c90 -o CMakeFiles/cmTC_4229a.dir/feature_tests.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4229a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4229a.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_4229a.dir/feature_tests.c.o  -o cmTC_4229a 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64172/fast"
+/usr/bin/make -f CMakeFiles/cmTC_64172.dir/build.make CMakeFiles/cmTC_64172.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64172.dir/CheckIncludeFile.c.o
+/usr/bin/clang     -o CMakeFiles/cmTC_64172.dir/CheckIncludeFile.c.o   -c /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_64172
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64172.dir/link.txt --verbose=1
+/usr/bin/clang       CMakeFiles/cmTC_64172.dir/CheckIncludeFile.c.o  -o cmTC_64172 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/julian/projects/turbo/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0cef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0cef.dir/build.make CMakeFiles/cmTC_a0cef.dir/build
+make[1]: Entering directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0cef.dir/CheckFunctionExists.c.o
+/usr/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a0cef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0cef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0cef.dir/link.txt --verbose=1
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a0cef.dir/CheckFunctionExists.c.o  -o cmTC_a0cef -lpthread 
+make[1]: Leaving directory '/home/julian/projects/turbo/build/CMakeFiles/CMakeTmp'
+
+

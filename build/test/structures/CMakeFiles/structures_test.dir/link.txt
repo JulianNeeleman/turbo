@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/structures_test.dir/segment_tree_test.cpp.o  -o structures_test /usr/lib/libgtest.a /usr/lib/libgtest_main.a -lpthread 

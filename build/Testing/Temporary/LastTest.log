@@ -1,0 +1,55 @@
+Start testing: Nov 20 17:41 CET
+----------------------------------------------------------
+1/2 Testing: geometry_test
+1/2 Test: geometry_test
+Command: "/home/julian/projects/turbo/build/test/geometry/geometry_test"
+Directory: /home/julian/projects/turbo/build/test/geometry
+"geometry_test" start time: Nov 20 17:41 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from PointTest
+[ RUN      ] PointTest.SampleTest
+[       OK ] PointTest.SampleTest (0 ms)
+[----------] 1 test from PointTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"geometry_test" end time: Nov 20 17:41 CET
+"geometry_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: structures_test
+2/2 Test: structures_test
+Command: "/home/julian/projects/turbo/build/test/structures/structures_test"
+Directory: /home/julian/projects/turbo/build/test/structures
+"structures_test" start time: Nov 20 17:41 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from SegmentTreeTest
+[ RUN      ] SegmentTreeTest.SampleTest
+[       OK ] SegmentTreeTest.SampleTest (0 ms)
+[----------] 1 test from SegmentTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"structures_test" end time: Nov 20 17:41 CET
+"structures_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 20 17:41 CET

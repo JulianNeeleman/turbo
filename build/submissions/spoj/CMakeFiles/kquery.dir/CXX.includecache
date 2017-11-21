@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/julian/projects/turbo/lib/structures/segment_tree.hpp
+vector
+-
+
+/home/julian/projects/turbo/submissions/spoj/kquery.cpp
+algorithm
+-
+iostream
+-
+set
+-
+tuple
+-
+vector
+-
+../../lib/structures/segment_tree.hpp
+/home/julian/projects/turbo/lib/structures/segment_tree.hpp
+
