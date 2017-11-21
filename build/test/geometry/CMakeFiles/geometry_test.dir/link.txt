@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/geometry_test.dir/vector_test.cpp.o  -o geometry_test /usr/lib/libgtest.a /usr/lib/libgtest_main.a -lpthread 

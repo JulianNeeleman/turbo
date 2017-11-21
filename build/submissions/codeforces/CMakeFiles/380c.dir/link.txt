@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/380c.dir/380c.cpp.o  -o 380c 

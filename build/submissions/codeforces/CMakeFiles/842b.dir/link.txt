@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/842b.dir/842b.cpp.o  -o 842b 

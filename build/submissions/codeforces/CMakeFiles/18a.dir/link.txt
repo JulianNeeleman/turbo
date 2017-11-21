@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/18a.dir/18a.cpp.o  -o 18a 

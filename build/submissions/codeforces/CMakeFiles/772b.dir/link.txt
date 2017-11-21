@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/772b.dir/772b.cpp.o  -o 772b 

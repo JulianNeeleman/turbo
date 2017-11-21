@@ -1,3 +1,0 @@
-geometry_test 44 3.78435e-05
-structures_test 43 3.69272e-05
----

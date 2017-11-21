@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/dquery.dir/dquery.cpp.o  -o dquery 

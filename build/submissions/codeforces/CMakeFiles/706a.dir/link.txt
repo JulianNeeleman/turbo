@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/706a.dir/706a.cpp.o  -o 706a 

@@ -1,1 +1,0 @@
-/usr/bin/g++      CMakeFiles/simplepolygon.dir/simplepolygon.cpp.o  -o simplepolygon 
